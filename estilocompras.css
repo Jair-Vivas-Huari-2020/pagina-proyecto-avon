@@ -1,0 +1,97 @@
+.titulo-1{
+	color:orange;
+	font-family: Brush Script MT;
+	font-size: 56px;
+}
+.titulo-2{
+	color:black;
+	font-family: times new Roman;
+	font-size: 30px;
+}
+b:hover{
+	color:rgb(255, 158, 11);
+}
+a{
+	color:blue;
+	font-family: Times New Roman;
+	font-size: 18px;
+}
+p{
+	color:black;
+}
+h2 p{
+	color:red;
+}
+body{
+	background: "https://assets.radioagricultura.cl/2020/01/Logo-Natura-818x460.jpg";
+	background-size: 100% 100%;
+}
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	list-style: none;
+	padding: 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	background: #EAA34E;
+	display: block;
+}
+
+.navegacion ul{
+	list-style: none;
+	display: block;
+}
+
+#menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+#menu > li > a{
+	display: block;
+	padding: 20px 70px;
+	color: white;
+	font-family: 'Times New Roman';
+	text-decoration: none;
+}
+
+#menu li a:hover{
+	color: #8C9693;
+	transition: all .3s;
+	display: block;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #c72062;
+	width: 80%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	display: block;
+	list-style: none;
+}
+
+.submenu li a{
+	display: block;
+	padding: 10px;
+	color: #E743E2;
+	font-family: 'Times New Roman';
+	text-decoration: none;
+}
+
+#menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	display: block;
+}
+.redes{
+	background: #E0B1E1;
+	background-size: 100% 100%;
+}

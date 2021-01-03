@@ -1,0 +1,117 @@
+.h1-class{
+	color:black;
+	font-family: Times New Roman;
+	font-size: 30px;
+}
+b:hover{
+	color:rgb(255, 158, 11);
+}
+h2 span{
+	color:#00304E;
+	font-family: Times New Roman;
+	font-size: 25px;
+}
+.navegacion{
+	list-style: none;
+	padding: 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	background: #EAA34E;
+	display: block;
+}
+
+.navegacion #menu{
+	list-style: none;
+	display: block;
+}
+
+#menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+#menu > li > a{
+	display: block;
+	padding: 20px 70px;
+	color: white;
+	font-family: 'Times New Roman';
+	text-decoration: none;
+}
+
+#menu li a:hover{
+	color: #8C9693;
+	transition: all .3s;
+	display: block;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #c72062;
+	width: 80%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	display: block;
+	list-style: none;
+}
+
+.submenu li a{
+	display: block;
+	padding: 10px;
+	color: #E743E2;
+	font-family: 'Times New Roman';
+	text-decoration: none;
+}
+
+#menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	display: block;
+}
+div#general {
+	margin: auto;
+	margin-top: 30px;
+	width: 1400px;
+	height: 1120px;
+	background-color:none;
+}
+div#historia {
+	padding: 5px;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top: 30px;
+	float: left;
+	width: 690px;
+	height: 770px;
+	background-color:orange;
+}
+div#misión {
+	padding: 5px;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top: 30px;
+	float: right;
+	width: 690px;
+	height: 770px;
+	background-color:orange;
+}
+div#visión {
+	padding: 5px;
+	padding-left:5px;
+	padding-right:5px;
+	width: 1400px;
+	height: 300px;
+	background-color:orange;
+}
+
+#footer {
+    width:560px; 
+    text-align:right;
+    padding:10px;
+    font-size:80%; 
+    font-style:italic;
+    color:#999999;
+}
